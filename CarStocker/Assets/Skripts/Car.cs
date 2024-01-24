@@ -23,7 +23,7 @@ public class Car : MonoBehaviour
         AddSpeed();
         AddRotation();
         AdjustVelocity();
-        txtSpeed.text = "Speed   " + rigid.velocity.magnitude+"Km/h";
+        txtSpeed.text = "Speed   " + rigid.velocity.magnitude.ToString("0.##") +"Km/h";
    
     }
 
